@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+body{
+    background-image:url(https://gifdb.com/images/high/lightning-like-sound-wave-a26vgycddqquootj.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color:black;
+    width:100%;
+    
+}
+h1{
+    border-bottom: 1px solid #f2f2f2;
+    
+}
+.grid-container{
+    display: grid;
+  height: 400px;
+  align-content: center;
+  text-align: absolute;
+  padding-top:10vh;
+}
+.item-1{
+    color:white;
+    font-family:'Lora';
+    padding-left:40px;
+    font-size: large;
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom:40px;
+    padding-top:25px;
+}
+.item-2{
+    grid-column: 2 / span 9;
+    grid-row: 1 / 6;
+    border-left:1px solid #f2f2f2;
+}
+.item-4{
+    color:white;
+    font-family:'Lora';
+    padding-left:40px;
+    font-size: small;
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom:40px;
+}
+.item-5{
+    color:white;
+    font-family:'Lora';
+    padding-top:20px;
+    padding-left:100px;
+    font-size: small;
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom:40px;
+    line-height: 2.5;
+}
+.item-6{
+    color:white;
+    font-family:'Lora';
+    padding-top:40px;
+    padding-left:40px;
+    font-size: x-small;
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom:40px;
+    line-height: 1.8;
+}
+.item-2{
+    color:white;
+    font-family:'Lora';
+}
+.soundfile{
+    color:white;
+    font-family:'Lora';
+    font-size:x-small;
+    Padding-top:300px;
+    padding-left:100px;
+}
+.soundfile-2{
+    color:white;
+    font-family:'Lora';
+    font-size:x-small;
+    Padding-top:50px;
+    padding-left:150px;
+}
