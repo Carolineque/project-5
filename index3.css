@@ -30,10 +30,19 @@ h1{
     padding-top:25px;
 }
 .item-2{
-    grid-column: 2 / span 9;
+    grid-column: 2 / span 8;
     grid-row: 1 / 6;
     border-left:1px solid #f2f2f2;
 }
+.scroll-container{
+    overflow: auto;
+    white-space: nowrap;
+    padding: 5px 70px 5px 20px;
+    background: transparent;
+    height: 100%;
+    border-radius:15px;
+  }
+  
 .item-4{
     color:white;
     font-family:'Lora';
@@ -41,6 +50,9 @@ h1{
     font-size: small;
     border-bottom: 1px solid #f2f2f2;
     padding-bottom:40px;
+    padding-top:25px;
+    margin-top: 10px;
+    
 }
 .item-5{
     color:white;
@@ -70,13 +82,35 @@ h1{
     color:white;
     font-family:'Lora';
     font-size:x-small;
-    Padding-top:300px;
-    padding-left:100px;
+    Padding-top:40px;
+    padding-left:350px;
 }
 .soundfile-2{
     color:white;
     font-family:'Lora';
     font-size:x-small;
-    Padding-top:50px;
+    Padding-top:20px;
     padding-left:150px;
+}
+.soundfile-3{
+    color:white;
+    font-family:'Lora';
+    font-size:x-small;
+    padding-left:300px;
+}
+.soundfile-4{
+    color:white;
+    font-family:'Lora';
+    font-size:x-small;
+    padding-left:800px;
+}
+@media screen and (max-width:383px) {
+    body{
+        background-color:aqua;
+        
+    }
+    .soundfile img{
+        width:10px;
+        height:100px;
+    }
 }
