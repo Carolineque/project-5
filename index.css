@@ -89,3 +89,8 @@ h2{
     cursor:none!important;
   }
 
+  @media screen and (max-width:375px) {
+    h1{
+      width:300px;
+    }
+  }

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="indexx.css" rel="stylesheet">
+        <script src="index.js"></script>
+    </head>    
+    <body>
+        <div class="header">
+            <h1> <object data="imgheader.svg" type="image/svg+xml" width= 100%; height=auto;></object> </h1>
+        </div>
+    
+        <div class="grid-container">
+            <div class="item-1">WELCOME TO </br> YOUR SOUND </br> GALLERY.</div>
+            <div class="item-2">
+               <h3> Index
+               </h3>
+                <div class="tab">
+                    <button class="tablinks" onclick="openCity(event, 'A')">A</button>
+                    <button class="tablinks" onclick="openCity(event, 'B')">B</button>
+                    <button class="tablinks" onclick="openCity(event, 'C')">C</button>
+                </div>
+                
+                <div id="A" class="tabcontent">
+                    <script>
+                        function openCity(evt, cityName) {
+                        var i, tabcontent, tablinks;
+
+                        tabcontent = document.getElementsByClassName("tabcontent");
+                        for (i = 0; i < tabcontent.length; i++) {
+                            tabcontent[i].style.display = "none";
+                        }
+
+                        tablinks = document.getElementsByClassName("tablinks");
+                        for (i = 0; i < tablinks.length; i++) {
+                            tablinks[i].className = tablinks[i].className.replace(" active", "");
+                        }
+
+                        document.getElementById(cityName).style.display = "block";
+                        evt.currentTarget.className += " active";
+                        }
+                    </script>
+                    <h3>A</h3>
+        </br>
+            <h5>
+                Accelerate (4) </br> Acceleration (5) </br>Aggregate (4)  </br>  Air (8)   </br> Air Circulation (1)   </br> Air Conditioner (10)  </br> Airplane (5)  </br>  Alarm (40)    </br>Alarm Clock (28) </br>   Ambient (9)  </br>  Angel (2)  </br>  Animal (17)  </br>  Animals (41)   </br> Animals Bird (1)  </br>  Anvil (2)  </br>  Apartment (55)   </br> Apartment Building (3)  </br>  Apartment Door (2)  </br>  Atmos (14)  </br>  Atmosphere (15)  </br> Audi (2)  
+            </h5>
+                </div>
+                
+                <div id="B" class="tabcontent">
+                    <h3>B</h3>
+                    <h5>
+                        Baby (3) </br>   Banger (10)  </br>  Bar (10) </br>   Barking (12) </br>   Bath (48)</br>    Bathroom (12)  </br>  Bathtub (5)  </br>  Beat (7)  </br>  Bee (6)  </br>  Beep (5) </br>   Beer (14)  </br>  Beer Bottle (4) </br>   Before (1) </br>   Bell (58) </br>   Bike (8)  </br>  Bird (25)  </br>  Birthday (9) </br>   Blower (9)  </br>  Bmw (1)  </br>  Bmw X5 (1) </br>   Body Care (2) </br>   Bomb (1) </br>   Bosch (5)  
+        
+                    </h5>
+                </div>
+                
+                <div id="C" class="tabcontent">
+                    <h3>C</h3>
+                    <h5>
+                        Cabinet (10)  </br>  Cafe (3) </br>   Camera (5)  </br>  Camping (4) </br>   Car (82) </br>  Car Racing (1) </br>   Carneval (4)  </br>  Cartoon (174)  </br>  Cat (4) </br>   Champagne (4)  </br>  Checkout (1) </br>   Cherry (1)  </br>  Chewing (4)  </br>  Chicken (4) </br>   Chirp (2)  </br>  Choir (1) </br>   Church (4) </br>   City (71) </br>   City Traffic (5) </br>   Climate (1) </br>   Closing (3)</br>   
+                    </h5>
+                </div>
+            </br>
+                </div>
+            <div class="grid-item">3</div>
+            <div class="item-4">This is a website that visualizes</br>
+                the sound resources and enables</br>
+                everyone to access them </br>
+                without limitations.</div>
+            <div class="item-5"><a href="homepage.html"> Player</a></br>
+                index </br>
+                <a href=about.html>About </a></br></div>
+            <div class="item-6">contact: seesounds@gmail.com </br>
+                2 W 13th St, New York
+
+            </div>
+            <div class="item-7">
+            </div>
+            <div class="grid-item">8</div>
+            <div class="grid-item">9</div>
+        </div>
+  
+    </body>

@@ -39,7 +39,7 @@
                 everyone to access them </br>
                 without limitations.</div>
             <div class="item-5"><a href=homepage.html>Player </a></br>
-                index </br>
+                <a href=Indexindex.html>index</a> </br>
                 <a href=about.html>About </a></br></div>
             <div class="item-6">Description</br>
             <div class="des">
@@ -52,12 +52,62 @@
             </div>
             <div class="item-8"></div>
             <div class="item-9">moodboard</br>
-                <div class="movingimages">
-                    <div class="1st">
-                        <img src ="group3.svg">
-                        <button><a href="group1.svg" target="_self"><</a></button>
-                        <button><a href="group2.svg" target="_self">></a></button>
+                <script> 
+                    let slideIndex = 1;
+                    showSlides(slideIndex);
+
+                    function plusSlides(n) {
+                    showSlides(slideIndex += n);
+                    }
+
+                    function currentSlide(n) {
+                    showSlides(slideIndex = n);
+                    }
+
+                    function showSlides(n) {
+                    let i;
+                    let slides = document.getElementsByClassName("mySlides");
+                    let dots = document.getElementsByClassName("dot");
+                    if (n > slides.length) {slideIndex = 1} 
+                    if (n < 1) {slideIndex = slides.length}
+                    for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none"; 
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex-1].style.display = "block"; 
+                    dots[slideIndex-1].className += " active";
+                    }
+                      </script>
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                      <div class="numbertext">1 / 3</div>
+                      <img src="group4.jpg" style="width:50%">
                     </div>
+                  
+                    <div class="mySlides fade">
+                      <div class="numbertext">2 / 3</div>
+                      <img src="group5.jpg" style="width:50%">
+                    </div>
+                  
+                    <div class="mySlides fade">
+                      <div class="numbertext">3 / 3</div>
+                      <img src="group6.jpg" style="width:50%">
+                    </div>
+    
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
+                  <br>
+                 
+                  <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span> 
+                    <span class="dot" onclick="currentSlide(2)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                  </div>
+                 
+                
     </div>
         </div>
     </body>

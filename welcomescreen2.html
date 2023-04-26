@@ -6,13 +6,14 @@
         <script src="index.js"></script>
     </head>
     <body>
+      
         <h1>
             <a href="homepage.html"><object data="title.svg" type="image/svg+xml"></object></a>
         </h1>
         <h2>
             They are not existed for just hearing.
         </h2>
-        <p>
+        <p id="body">
             <img id="layer1" src="img1.jpg" onclick = "this.style.display='none'";/>
             <img id="layer2" src="img2.jpg" onclick = "this.style.display='none'";/>
             <img id="layer3" src="img3.jpg" onclick = "this.style.display='none'";/>
@@ -20,4 +21,28 @@
             <img id="layer5" src="img5.jpg" onclick = "this.style.display='none'";/>
             <img id="layer6" src="img6.jpg" onclick = "this.style.display='none'";/>
         </p>
+        <script type="text/javascript">
+            window.onload=fadeout;
+              
+            function fadeout() {
+                var fade= document.getElementById("body");
+                  
+                var intervalID = setInterval(function () {
+              
+            if (!fade.style.opacity) {
+                fade.style.opacity = 1;
+            }
+              
+              
+            if (fade.style.opacity > 0) {
+                fade.style.opacity -= 0.1;
+            }
+              
+            else {
+                clearInterval(intervalID);
+            }
+              
+                }, 700);
+            }
+        </script>
     </body>

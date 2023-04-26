@@ -1,0 +1,426 @@
+body{
+    background-image:url(https://gifdb.com/images/high/lightning-like-sound-wave-a26vgycddqquootj.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color:black;
+    width:100%;
+    
+}
+
+h1{
+    border-bottom: 1px solid #f2f2f2;
+    
+}
+.grid-container{
+    display: grid;
+  height: 400px;
+  align-content: center;
+  text-align: absolute;
+  padding-top:19vh;
+}
+.item-1{
+    color:white;
+    font-family:'Lora';
+    padding-left:60px;
+    font-size: large;
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom:40px;
+    padding-top:25px;
+}
+.item-2{
+    grid-column: 2 / span 8;
+    grid-row: 1 / 6;
+    border-left:1px solid #f2f2f2;
+}
+.scroll-container{
+    overflow: auto;
+    white-space: nowrap;
+    padding: 5px 70px 5px 20px;
+    background: transparent;
+    height: 100%;
+    border-radius:15px;
+  }
+  
+.item-4{
+    color:white;
+    font-family:'Lora';
+    padding-left:40px;
+    font-size: small;
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom:40px;
+    padding-top:25px;
+    margin-top: 10px;
+    
+}
+.item-5{
+    color:white;
+    font-family:'Lora';
+    padding-top:20px;
+    padding-left:100px;
+    font-size: small;
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom:40px;
+    line-height: 2.5;
+}
+.item-6{
+    color:white;
+    font-family:'Lora';
+    padding-top:40px;
+    padding-left:40px;
+    font-size: x-small;
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom:40px;
+    line-height: 1.8;
+}
+h3{
+  color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top:20px;
+    padding-left:40px;
+    font-size: large;
+}
+h4{
+    color:white;
+      font-family:'Lora';
+      padding-left:40px;
+      font-size: xxx-large;
+}
+h5{
+  color:white;
+      font-family:'Lora';
+      padding-left:40px;
+      font-size: x-small;
+}
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.item-2{
+    color:white;
+    font-family:'Lora';
+}
+.soundfile{
+    color:white;
+    font-family:'Lora';
+    font-size:x-small;
+    Padding-top:40px;
+    padding-left:350px;
+}
+.soundfile-2{
+    color:white;
+    font-family:'Lora';
+    font-size:x-small;
+    Padding-top:20px;
+    padding-left:150px;
+}
+.soundfile-3{
+    color:white;
+    font-family:'Lora';
+    font-size:x-small;
+    padding-left:300px;
+}
+.soundfile-4{
+    color:white;
+    font-family:'Lora';
+    font-size:x-small;
+    padding-left:800px;
+}
+.mscursor-cursor {
+    pointer-events: none;
+    position: fixed;
+    display: block;
+    border-radius: 0;
+    top: 0;
+    left: 0;
+    z-index: 9999999999999999;  
+  }
+  .mscursor-difference{
+    mix-blend-mode: difference;
+  }
+  .mscursor-circle {
+      transform-origin: center;
+      position: absolute;
+      display: block;
+      width: 26px;
+      height: 26px;
+      border-radius: 20px;
+  }
+  .mscursor-border-transform{
+    animation: border-transform 3s linear infinite;
+  }
+  @keyframes border-transform {
+    0%,
+    100% {
+      border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
+    }
+    14% {
+      border-radius: 40% 60% 54% 46% / 49% 60% 40% 51%;
+    }
+    28% {
+      border-radius: 54% 46% 38% 62% / 49% 70% 30% 51%;
+    }
+    42% {
+      border-radius: 61% 39% 55% 45% / 61% 38% 62% 39%;
+    }
+    56% {
+      border-radius: 61% 39% 67% 33% / 70% 50% 50% 30%;
+    }
+    70% {
+      border-radius: 50% 50% 34% 66% / 56% 68% 32% 44%;
+    }
+    84% {
+      border-radius: 46% 54% 50% 50% / 35% 61% 39% 65%;
+    }
+  }
+  .mscursor-scale{
+    transition: .5s ease;
+    transform: scale(1.6);
+  }
+  .mscursor-scale-outline{
+    transform:scale(1.9);
+    background-color: transparent !important;
+  }
+  
+  .mscursor-nocursor{
+    cursor:none!important;
+  }
+
+  .mscursor-cursor {
+    pointer-events: none;
+    position: fixed;
+    display: block;
+    border-radius: 0;
+    top: 0;
+    left: 0;
+    z-index: 9999999999999999;  
+  }
+  .mscursor-difference{
+    mix-blend-mode: difference;
+  }
+  .mscursor-circle {
+      transform-origin: center;
+      position: absolute;
+      display: block;
+      width: 26px;
+      height: 26px;
+      border-radius: 20px;
+  }
+  .mscursor-border-transform{
+    animation: border-transform 3s linear infinite;
+  }
+  @keyframes border-transform {
+    0%,
+    100% {
+      border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
+    }
+    14% {
+      border-radius: 40% 60% 54% 46% / 49% 60% 40% 51%;
+    }
+    28% {
+      border-radius: 54% 46% 38% 62% / 49% 70% 30% 51%;
+    }
+    42% {
+      border-radius: 61% 39% 55% 45% / 61% 38% 62% 39%;
+    }
+    56% {
+      border-radius: 61% 39% 67% 33% / 70% 50% 50% 30%;
+    }
+    70% {
+      border-radius: 50% 50% 34% 66% / 56% 68% 32% 44%;
+    }
+    84% {
+      border-radius: 46% 54% 50% 50% / 35% 61% 39% 65%;
+    }
+  }
+  .mscursor-scale{
+    transition: .5s ease;
+    transform: scale(1.6);
+  }
+  .mscursor-scale-outline{
+    transform:scale(1.9);
+    background-color: transparent !important;
+  }
+  
+  .mscursor-nocursor{
+    cursor:none!important;
+  }
+
+  @media screen and (max-width:375px) {
+    .header{
+      width:500px;
+  }
+
+  .grid-container{
+    height: 800px;
+    width:400px;
+    padding-top:20px;
+  }
+  .item-1{
+     border-top:1px solid #f2f2f2;
+      padding-left:20px;
+      font-size: large;
+      border-bottom: 1px solid #f2f2f2;
+      padding-bottom:50px;
+      padding-top:20px;
+      padding-right:20px;
+  }
+  .item-2{
+      grid-column: 2 / span 8;
+      grid-row: 1 / 6;
+      border-left:1px solid #f2f2f2;
+      width:400px;
+  }
+  .item-4{
+      color:white;
+      font-family:'Lora';
+      padding-left:20px;
+      font-size: small;
+      border-bottom: 1px solid #f2f2f2;
+      padding-bottom:40px;
+      padding-top:25px;
+      margin-top: 10px;
+      padding-right:20px;
+      
+  }
+  .item-5{
+      color:white;
+      font-family:'Lora';
+      padding-top:20px;
+      padding-left:20px;
+      font-size: small;
+      border-bottom: 1px solid #f2f2f2;
+      padding-bottom:40px;
+      line-height: 2.5;
+  }
+  .item-6{
+      color:white;
+      font-family:'Lora';
+      padding-top:20px;
+      padding-left:20px;
+      font-size: x-small;
+      border-bottom: 1px solid #f2f2f2;
+      padding-bottom:40px;
+      line-height: 1.8;
+      padding-right:20px;
+  }
+  .item-2{
+      color:white;
+      font-family:'Lora';
+  }
+  .soundfile{
+      color:white;
+      font-family:'Lora';
+      font-size:x-small;
+      Padding-top:40px;
+      padding-left:150px;
+  }
+  .soundfile-2{
+      color:white;
+      font-family:'Lora';
+      font-size:x-small;
+      Padding-top:40px;
+      padding-left:80px;
+  }
+  .soundfile-3{
+      color:white;
+      font-family:'Lora';
+      font-size:x-small;
+      Padding-top:40px;
+      padding-left:50px;
+  }
+  .soundfile-4{
+      color:white;
+      Padding-top:40px;
+      font-family:'Lora';
+      font-size:x-small;
+      padding-left:70px;
+  }
+  
+  }
+  @media screen and (max-width:375px) {
+    .item-2{
+        width:150px;
+    }
+    .header{
+        width:375px;
+    }
+    .item-1{
+        border-top:1px solid #f2f2f2;
+         padding-left:10px;
+         font-size: large;
+         border-bottom: 1px solid #f2f2f2;
+         padding-bottom:50px;
+         padding-top:20px;
+         padding-right:20px;
+     }
+     .item-2{
+         grid-column: 2 / span 8;
+         grid-row: 1 / 6;
+         border-left:1px solid #f2f2f2;
+         width:400px;
+     }
+     .item-4{
+         color:white;
+         font-family:'Lora';
+         padding-left:10px;
+         font-size: small;
+         border-bottom: 1px solid #f2f2f2;
+         padding-bottom:40px;
+         padding-top:25px;
+         margin-top: 10px;
+         padding-right:20px;
+         
+     }
+     .item-5{
+         color:white;
+         font-family:'Lora';
+         padding-top:20px;
+         padding-left:10px;
+         font-size: small;
+         border-bottom: 1px solid #f2f2f2;
+         padding-bottom:40px;
+         line-height: 2.5;
+     }
+     .item-6{
+         color:white;
+         font-family:'Lora';
+         padding-top:20px;
+         padding-left:10px;
+         font-size: x-small;
+         border-bottom: 1px solid #f2f2f2;
+         padding-bottom:40px;
+         line-height: 1.8;
+         padding-right:20px;
+     }
+     .item-2{
+         color:white;
+         font-family:'Lora';
+     }
+  }
